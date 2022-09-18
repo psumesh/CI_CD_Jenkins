@@ -1,0 +1,15 @@
+#! /usr/bin/python3
+import os
+import shutil
+
+os.chdir('../testbench/')
+
+dumps = ['__pycache__', 'sim_build', 'alu_wave.vcd', 'results.xml']
+
+for file in dumps:
+    if os.path.isdir(file):
+        shutil.rmtree(file)
+    elif os.path.isfile(file):
+        os.remove(file)
+
+os.system('make')
