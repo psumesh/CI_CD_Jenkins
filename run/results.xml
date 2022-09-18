@@ -1,0 +1,12 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1663507170" />
+    <testcase name="tb_NOP" classname="tb_NOP" file="/mnt/e/Umesh/jenkins/testbench/tb_NOP.py" lineno="3" time="0.013380050659179688" sim_time_ns="390.001" ratio_time="29147.94644162509" />
+    <testcase name="tb_AND" classname="tb_ADD" file="/mnt/e/Umesh/jenkins/testbench/tb_ADD.py" lineno="3" time="0.008871078491210938" sim_time_ns="390.001" ratio_time="43963.20023392818" />
+    <testcase name="tb_ADC" classname="tb_ADC" file="/mnt/e/Umesh/jenkins/testbench/tb_ADC.py" lineno="3" time="0.011672496795654297" sim_time_ns="390.001" ratio_time="33411.96033955635" />
+    <testcase name="tb_SUB" classname="tb_SUB" file="/mnt/e/Umesh/jenkins/testbench/tb_SUB.py" lineno="3" time="0.012849092483520508" sim_time_ns="390.001" ratio_time="30352.41597803054" />
+    <testcase name="tb_AND" classname="tb_AND" file="/mnt/e/Umesh/jenkins/testbench/tb_AND.py" lineno="3" time="0.010899066925048828" sim_time_ns="390.0010000000002" ratio_time="35782.97139397123" />
+    <testcase name="tb_OR" classname="tb_OR" file="/mnt/e/Umesh/jenkins/testbench/tb_OR.py" lineno="3" time="0.011162996292114258" sim_time_ns="390.00099999999975" ratio_time="34936.94612041603" />
+    <testcase name="tb_XOR" classname="tb_XOR" file="/mnt/e/Umesh/jenkins/testbench/tb_XOR.py" lineno="3" time="0.01134490966796875" sim_time_ns="390.0010000000002" ratio_time="34376.73912037662" />
+  </testsuite>
+</testsuites>
