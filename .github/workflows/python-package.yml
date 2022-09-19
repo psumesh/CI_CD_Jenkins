@@ -26,7 +26,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     # ----------docker setup---------------------------------
     - name: Publish to docker Hub
-      uses: docker/build-push-action@vl
+      uses: docker/build-push-action@v1
       with:
          username: ${{ secrets.DOCKER_USERNAME }}
          password: ${{secrets.DOCKER_PASSWORD}}
