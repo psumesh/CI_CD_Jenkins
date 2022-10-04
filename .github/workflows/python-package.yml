@@ -27,7 +27,7 @@ jobs:
     #---------install icarus---------------------
     - name: Install verilog
       run: sudo apt-get install verilog
-      tool: which iverilog
+      run: which iverilog
     #-----------end install icarus---------------
     
     # ----------docker setup---------------------------------
