@@ -26,8 +26,9 @@ jobs:
         python-version: ${{ matrix.python-version }}
     #---------install icarus---------------------
     - name: Install verilog
-      run: sudo apt-get install verilog
-      run: which iverilog
+      run: |
+          sudo apt-get install verilog
+          which iverilog
     #-----------end install icarus---------------
     
     # ----------docker setup---------------------------------
